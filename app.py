@@ -438,7 +438,7 @@ def create_pdf(path, client_name, age, gender, scores, validity, report_text):
                             leftMargin=2*cm, rightMargin=2*cm,
                             topMargin=2*cm, bottomMargin=2*cm)
 
-    title_s  = ParagraphStyle("T",  fontName="Times-Roman",      fontSize=18, textColor=DARK, alignment=TA_CENTER, spaceAfter=10)
+    title_s  = ParagraphStyle("T",  fontName="Times-Roman",      fontSize=18, textColor=DARK, alignment=TA_CENTER, spaceAfter=15)
     sub_s    = ParagraphStyle("S",  fontName="Times-Italic",      fontSize=10, textColor=WARM, alignment=TA_CENTER, spaceAfter=2)
     meta_s   = ParagraphStyle("M",  fontName="Helvetica",         fontSize=8,  textColor=WARM, alignment=TA_CENTER, spaceAfter=10)
     sec_s    = ParagraphStyle("Se", fontName="Helvetica-Bold",    fontSize=10, textColor=WARM, spaceBefore=12, spaceAfter=4)
