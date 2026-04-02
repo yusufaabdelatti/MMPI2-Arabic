@@ -720,7 +720,7 @@ def create_pdf(path, client_name, age, gender, scores, validity, report_text):
         Spacer(1, 0.2*cm),
         Paragraph("This report is strictly confidential and intended solely for the treating clinician. "
                   "Not to be shared without explicit written consent. "
-                  "AI-assisted analysis should be reviewed alongside clinical judgment.", footer_s),
+                  "Report by WIJDAN THERAPY.", footer_s),
     ]
     doc.build(story)
 
